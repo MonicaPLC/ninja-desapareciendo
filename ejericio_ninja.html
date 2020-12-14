@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/ninja.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>jQuery assignmet 1</p>
+    <img src="img-gatos/baby_gato.jpg" width="350" height="300" />
+    <img src="img-gatos/gatito_blanco.jpg" width="350" height="300" />
+    <img src="img-gatos/gatito_flor.jpg" width="350" height="300" />
+    <img src="img-gatos/gatitos.jpg" width="350" height="300" />
+    <img src="img-gatos/gato_angora.jpg" width="350" height="300" />
+    <img src="img-gatos/gato_flor.jpg" width="350" height="300" />
+    <img src="img-gatos/gato_mirando.jpg" width="350" height="300" />
+    <img src="img-gatos/gato_raza.jpg" width="350" height="300" />
+
+    <button id="boton">restaurar</button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $("img").on("click", function () {
+          $(this).hide();
+        });
+
+        $("#boton").on("click", function () {
+          $("img").show();
+        });
+      });
+    </script>
+  </body>
+</html>
