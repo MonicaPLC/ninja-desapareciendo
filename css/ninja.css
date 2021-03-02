@@ -1,6 +1,29 @@
-#gatos {
-  width: 1000px;
-  height: 600px;
-  margin: auto;
-  display: flex;
+h2 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-family: TAHOMA;
+  font-weight: bold;
+  color: brown;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 10px groove brown;
+}
+
+#boton {
+  float: right;
+}
+
+.container {
+  text-align: center;
+}
+
+body {
+  background-color: darksalmon;
 }
